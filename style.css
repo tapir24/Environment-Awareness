@@ -4,13 +4,13 @@
     padding: 0;
 }
 #banner{
-    background: linear-gradient(rgba(0,0,0,0.1),green),url();
+    background: linear-gradient(rgba(0,0,0,0.1),green),url(asset/image/adi-goldstein-NErnyh54GS4-unsplash.jpg);
     height: 650px;
     background-size: cover;
     background-position: center;
 }
 .logo{
-    width: 140px;
+    width: 200px;
     margin-top: 20px;
 }
 .banner-text{
@@ -57,3 +57,52 @@
 .banner-btn a:hover{
     color: black;
 }
+.title-text{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+/* font-weight: bold;*/
+  
+.title-text p{
+    font-size: 40px;
+    color: #000;
+}
+.title-text h1{
+    font-size:30px;
+    color: #1ca700;
+    margin-top: 20px;
+}
+.contents{
+    margin-bottom: 20px;
+   margin-left: 40px;
+   margin-right: 40px;
+   margin-top: 15px; 
+   font-size: 16px;
+   color: #000000;
+   font-weight: normal;
+   background: linear-gradient(  #fff, #ECFFDC);
+}
+.feature-box{
+    width: 80%;
+    display: flex;
+    text-align: center;
+    margin-bottom: 25px;
+    margin: auto;
+}
+.features{
+    flex-basis: 50%;
+}
+.features span{
+    font-size: 30px;
+     color: #1ca700;
+}
+   
+.features-icon .fa-solid{
+     line-height: 50px;
+     border-radius: 8px;
+     border: 1px solid #1ca700;
+     width: 50px;
+     height: 50px;
+}
+   
