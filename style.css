@@ -107,8 +107,6 @@
 }
 #ImpactOnEnvironment{
     width: 100%;
-    padding-left: 70px;
-    padding-right: 70px;
     background-color: #efefef;
 }
 .features-img{
@@ -169,6 +167,71 @@
   bottom: 40%;
   opacity: 1;
 }
+#testimonial{
+    width: 100%;
+    padding: 70px 0;
+}
+  
+.testimonial-row{
+    flex-wrap: wrap;
+  
+      justify-content: space-between;
+      
+      display: flex;
+      width: 90%;
+      margin: auto;
+}
+.testimonial-col{
+    transition: transform 0.5s;
+  
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow:  0 10px 20px 3px #7fbf7f;
+    padding: 10px;
+    margin-bottom: 30px;
+    flex-basis: 28%;
+}
+  
+.testimonial-col:hover{
+    transform: translateY(-16px);
+}
+.testimonial-col p{
+    font-size: 17px;
+}
+  
+.user img{
+    width: 80px;
+    height: 80px;
+    border-radius: 3px;
+}
+  
+.user-info .fa{
+    margin-left: 10px;
+    color: #27c0ff;
+    font-size:20px; 
+}
+  
+.user-info small{
+     color: #27c0ff;
+}
+#footer{
+    background:  #5affa4;
+    padding: 10px 0 20px;
+}
+.footer-row{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-img{
+    position: absolute;
+    left: 35%;
+    opacity: 0.3;
+    width: 370px;
+}
+
 
   
   
